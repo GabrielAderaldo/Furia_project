@@ -20,20 +20,23 @@ Para responder aos dois desafios de forma integrada, desenvolvi um **ecossistema
 - Uma **web page institucional** com chatbot integrado, informações dos jogos e quiz interativo.
 - Um **aplicativo Flutter (APK)** com foco na experiência direta do fã, incluindo o chatbot e o quiz "Qual tipo de fã você é?"
 
-## 📱 Tecnologias utilizadas
+## ⚙️ Tecnologias utilizadas
 
-| Módulo | Tecnologia |
-|--------|------------|
-| Backend/API | [Deno](https://deno.land) com REST API |
-| Web Page | [React](https://react.dev) com Tailwind |
-| App Mobile | [Flutter](https://flutter.dev) |
-| Chatbot | [Telegram Bot API](https://core.telegram.org/bots/api) |
-| Banco de Dados | PostgreSQL |
+| Módulo        | Tecnologia                                                   |
+|---------------|--------------------------------------------------------------|
+| Backend/API   | [DenoJS](https://deno.land) + HTTP nativo                    |
+| Banco de dados| [PostgreSQL](https://www.postgresql.org/) + [MongoDB](https://www.mongodb.com/) |
+| Chatbot       | [grammY](https://grammy.dev) (Telegram Bot API)              |
+| Web Frontend  | [SolidJS](https://www.solidjs.com/) com [Vite](https://vitejs.dev/) |
+| App Mobile    | [Flutter](https://flutter.dev)                               |
 
 ## 🗂 Estrutura do Projeto
-.
-.
-.
+
+```
+/api         → Backend com endpoints REST (Deno)
+/web         → Frontend web com SolidJS + Vite
+/app         → Aplicativo Flutter (APK)
+```
 
 ## 🎯 Objetivos
 
@@ -42,17 +45,20 @@ Para responder aos dois desafios de forma integrada, desenvolvi um **ecossistema
 - ✅ Permitir interação em tempo real com chatbot
 - ✅ Coletar e analisar perfis dos fãs de maneira divertida e visual
 
-## 🚧 Status do Projeto
-
-> Projeto em desenvolvimento. Para acompanhar o progresso, acesse a aba de **Projects** aqui no GitHub.
-
 ## 📹 Apresentação em vídeo
 
 > O vídeo demonstrando as funcionalidades estará disponível após a finalização do projeto.
 
+## 🚧 Status do Projeto
+
+> Projeto em desenvolvimento. Para acompanhar o progresso, acesse a aba de **Projects** aqui no GitHub.
+
 ## 👤 Sobre mim
 
-Sou **Gabriel Vieira Soriano Aderaldo**, desenvolvedor fullstack com foco em soluções multiplataforma. Tenho experiência com Flutter, Deno, React e arquitetura de software voltada para produto. Acredito que a tecnologia pode transformar comunidades — e o E-sports é um campo fértil para inovação e engajamento de alto nível.
+Sou **Gabriel Vieira Soriano Aderaldo**, desenvolvedor fullstack com foco em soluções multiplataforma. Tenho experiência com Flutter, Deno, React, SolidJS e arquitetura de software voltada para produto. Acredito que a tecnologia pode transformar comunidades — e o E-sports é um campo fértil para inovação e engajamento de alto nível.
 
-- 📧 Contato: gabrieladeraldoacdg@gmail.com
+- 📧 Contato: gaderaldo10@gmail.com
 - 🌐 LinkedIn: [linkedin.com/in/gabrieladeraldo](https://linkedin.com/in/gabrieladeraldo)
+```
+
+---
