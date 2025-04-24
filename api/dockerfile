@@ -1,0 +1,9 @@
+FROM denoland/deno:1.41.0
+
+WORKDIR /app
+
+# Copia os arquivos para dentro do container
+COPY . .
+
+# Executa o servidor
+CMD ["run", "--allow-env", "--allow-net", "--allow-read", "--allow-write", "main.ts"]
